@@ -17,7 +17,7 @@ notitle-slide-attributes:
 format:
   revealjs:
     footer: "Na początku było RNA..."
-    nologo: files/bih_logo_small.png
+    nologo: images/sfn2023.png
     transition: fade
     slide-number: true
     smaller: true
@@ -57,12 +57,16 @@ https://github.com/january3/sfn2023
 ![](images/bombardowanie_orig.png){width="80%"}
 
 :::
-::: {.column width="40%" .fragment}
+::: {.column width="40%"}
 
+:::: {.fragment}
  * 4 miliardy lat temu ustało bombardowanie Ziemi przez meteoryty
  * Najstarsze ślady życia na Ziemi pochodzą mniej więcej z tego czasu
+::::
 
+:::: {.fragment}
  $\rightarrow$ Życie powstało niemal "natychmiast"
+::::
 
 :::
 ::::
@@ -106,18 +110,22 @@ komórkową, czyli tym, co może tę informację replikować.
 :::: {.columns}
 ::: {.column width="50%"}
 
-![Jajko i kura](images/jajko_kura_orig.png){width="80%"}
+![](images/jajko_kura_orig.png){width="80%"}
 
 :::
-::: {.column width="40%" .fragment}
+::: {.column width="40%"}
 
+:::: {.fragment}
 Replikator:
 
  * musi być w stanie się replikować
  * musi być w stanie się mutować
  * tempo replikacji zależy od przenoszonej informacji
+::::
 
+:::: {.fragment}
 $\rightarrow$ selekcja naturalna
+::::
 
 :::
 ::::
@@ -157,7 +165,15 @@ określenie "świat RNA" wprowadził w 1986 Walter Gilbert
 
 ##
 
-![Źródło: "Jak powstało życie na Ziemi"](images/fig_6_1_trna_structure.svg){width="80%"}
+:::: {.columns}
+::: {.column width="40%" .fragment}
+
+![Źródło: "Jak powstało życie na Ziemi"](images/trna.png){width="90%"}
+:::
+::: {.column width="60%" .fragment}
+![Źródło: "Jak powstało życie na Ziemi"](images/rnazaP.png){width="100%"}
+:::
+::::
 
 ::: {.notes}
 Po pierwsze, RNA mają złożone struktury
@@ -200,6 +216,7 @@ Z artykułu Cecha, "ribosome is a ribozyme"
 
 ## Podsumujmy:
 
+::: {.incremental}
  * RNA mogło powstać spontanicznie w warunkach prebiotycznych
  * RNA potrafi tworzyć złożone struktury
  * RNA potrafi katalizować przeróżne reakcje
@@ -208,6 +225,7 @@ Z artykułu Cecha, "ribosome is a ribozyme"
    żywych organizmach, nie tylko jako mRNA
  * wiele kofaktorów enzymatycznych jest spowinowaconych z RNA (NAD, FAD,
    ATP, AcCoA, ...)
+:::
 
 ::: {.notes}
 Rzecz ciekawa: RNA uczestniczy prominentnie w syntezie białek... ale
@@ -348,7 +366,7 @@ Zainteresowanie komercyjne!
 
 ## A może coś zupełnie innego?
 
-![Źródło: Francis 2011](images/coupled_synthesis.png){width="80%"}
+![Źródło: Brian Francis 2011](images/coupled_synthesis.png){width="80%"}
 
 ::: {.notes}
 Francis 2011 - świat hybrydowy, synteza jednoczesna
@@ -398,5 +416,6 @@ Czego nigdy się nie dowiemy: JAK POWSTAŁO ŻYCIE
 ::::
 :::::
 
-# Dziękuję za uwagę!
+## Dziękuję za uwagę!
 
+Zapraszam na rozmowę na "Przystanku Nauka" im. Wisławy Szymborskiej w Hallu Górnym
