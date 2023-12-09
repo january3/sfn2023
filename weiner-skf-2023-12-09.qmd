@@ -1,0 +1,304 @@
+---
+title: "Na początku było RNA - a może coś innego?"
+author: 
+  - name: "January Weiner"
+    orcid: 0000-0003-1438-7819
+    affiliations:
+     - ref: cubi
+affiliations:
+  - id: cubi
+    name: Core Unit for Bioinformatics, BIH@Charité
+    address: Charitéplatz 1, 
+    postal-code: 10117 
+    city: Berlin 
+    country: Germany
+notitle-slide-attributes:
+  nodata-background-image: files/bih_bg_logo.png
+format:
+  revealjs:
+    footer: "Na początku było RNA..."
+    nologo: files/bih_logo_small.png
+    transition: fade
+    slide-number: true
+    smaller: true
+    navigation-mode: linear
+    self-contained: true
+---
+
+## 
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](images/okładka.jpg){width="80%"} 
+
+:::
+::: {.column width="40%"}
+
+
+```{r}
+#| fig-width: 5
+#| fig-height: 5
+library(qrcode)
+plot(qr_code("https://github.com/january3/sfn2023"))
+```
+
+https://github.com/january3/sfn2023
+
+:::
+::::
+
+
+##  {.nostretch}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![](images/bombardowanie_orig.png){width="80%"}
+
+:::
+::: {.column width="40%" .fragment}
+
+ * 4 miliardy lat temu ustało bombardowanie Ziemi przez meteoryty
+ * Najstarsze ślady życia na Ziemi pochodzą mniej więcej z tego czasu
+
+ $\rightarrow$ Życie powstało niemal "natychmiast"
+
+:::
+::::
+
+::: {.notes}
+Życie powstało zaraz po powstaniu Ziemi; ale jak?
+:::
+
+
+##
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### Informacja genetyczna
+
+![](images/dna2.webp){width="80%"}
+
+:::
+::: {.column width="50%"}
+
+### Maszyneria komórkowa
+
+![](images/protein.webp){width="80%"}
+
+:::
+::::
+
+::: {.notes}
+Mamy rozdział między informacją genetyczną, kodowaną na DNA, a maszynerią
+komórkową, czyli tym, co może tę informację replikować. 
+:::
+
+## 
+
+![](images/dna_rna_białko.jpg)
+
+
+## 
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![Jajko i kura](images/jajko_kura_orig.png){width="80%"}
+
+:::
+::: {.column width="40%" .fragment}
+
+
+
+:::
+::::
+
+::: {.notes}
+wiemy jedno: na początku musiał być REPLIKATOR
+
+-> selekcja naturalna!
+:::
+
+
+# Świat RNA 
+
+::: {.notes}
+Na ten pomysł pierwszy wpadł w 1962 Alexander Rich!
+
+określenie "świat RNA" wprowadził w 1986 Walter Gilbert
+:::
+
+##
+
+![Źródło: "Jak powstało życie na Ziemi"](images/fig_6_1_trna_structure.svg){width="80%"}
+
+::: {.notes}
+Po pierwsze, RNA mają złożone struktury
+
+Po drugie, RNA może katalizować reakcje chemiczne
+:::
+
+
+
+##
+
+![Źródło: PDB](images/large_subunit.gif){.r-stretch}
+
+##
+
+![Źródło: Cech, "The ribosome is a ribozyme", Science 2000](images/ribosome.gif){.r-stretch}
+
+::: {.notes}
+
+Z artykułu Cecha, "ribosome is a ribozyme"
+
+:::
+
+## 
+
+## Życie z probówki?
+
+# Problemy ze światem RNA
+
+## Paradoks Eigena {.nostretch}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![Manfred Eigen](images/eigen.jpg){width="80%"}
+
+:::
+
+::: {.column width="40%" .fragment}
+
+Manfred Eigen (1927-2019)
+
+*For optimal selection, the required precision of information transfer has to be adjusted to the amount of information to be transferred.*
+
+$\rightarrow$ Im więcej informacji, tym mniejsza musi być częstość mutacji
+
+:::
+
+::::
+
+
+
+## COSMIC-LOPER
+
+**C**apable **o**f **S**urviving **M**odifications **i**n **C**onstitution 
+
+without **L**oss **o**f **P**roperties **E**ssential for **R**eplication
+
+Nośnik, który:
+
+ * poddaje się replikacji
+ * jest odporny na mutacje
+
+
+## Jakie alternatywy?
+
+::: {.notes}
+ * DNA - DNAzymy
+ *
+:::
+
+## Slide 1 
+
+To compile, type `quarto render template.qmd`
+
+Make sure you have Quarto 1.2 installed from
+[here](https://quarto.org/docs/download/prerelease.html).
+
+::: {.aside}
+This aside note can be used to add citations or notes
+:::
+
+## Multicolumn slide
+
+:::: {.columns}
+
+::: {.column width="40%" .fragment}
+### Left column title
+
+Left column...
+:::
+
+::: {.column width="60%" .fragment}
+### Right column title
+
+Right column (60%)...
+
+(adding `.fragment` causes the contents to be displayed in steps)
+:::
+
+::::
+
+
+
+# Part II separator slide {.inverse background-color="#70ADC1"}
+
+## Simple numbered and unnumbered lists
+
+:::: {.columns}
+
+::: {.column width="50%"}
+ * One
+ * Two
+:::
+
+::: {.column width="50%"}
+ 1. One
+ 2. Two
+:::
+
+::::
+
+## Incremental list
+
+::: {.incremental}
+ - Item 1
+ - Item 2
+ - Item 3
+:::
+
+
+## Incremental contents
+
+First part
+
+. . .
+
+Second part
+
+
+---
+
+This is a slide without a title (use the dashes to separate)
+
+## Transitions {transition="zoom"}
+
+Define them in the YAML header or like here, in the slide title.
+
+Types: none, fade, slide, convex, concave, zoom
+
+
+## Code 
+
+
+```{r}
+#| echo: true
+#| output-location: column-fragment
+#| label: fig-sample
+#| fig-cap: A dumb plot
+plot(1:10)
+```
+
+::: {.callout-tip}
+Ctrl-click on the image to zoom. And here is a `r pi` for you.
+:::
+
+
