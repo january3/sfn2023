@@ -131,6 +131,8 @@ wiemy jedno: na początku musiał być REPLIKATOR
 
 ##
 
+:::: {.columns}
+::: {.column width="50%"}
 > One can contemplate an
 > RNA world, containing only RNA molecules that serve to catalyze the
 > synthesis of themselves...
@@ -139,6 +141,11 @@ wiemy jedno: na początku musiał być REPLIKATOR
 > służą do katalizowania syntezy samych siebie...
 
 Walter Gilbert, 1986
+:::
+::: {.column width="40%"}
+![](images/gilbert-13322-portrait-medium.jpg){width="80%"}
+:::
+::::
 
 
 ::: {.notes}
@@ -198,7 +205,9 @@ Z artykułu Cecha, "ribosome is a ribozyme"
  * RNA potrafi katalizować przeróżne reakcje
  * RNA jest nośnikiem informacji genetycznej
  * RNA bierze udział w fundamentalnych procesach życiowych we wszystkich
-   żywych organizmach
+   żywych organizmach, nie tylko jako mRNA
+ * wiele kofaktorów enzymatycznych jest spowinowaconych z RNA (NAD, FAD,
+   ATP, AcCoA, ...)
 
 ::: {.notes}
 Rzecz ciekawa: RNA uczestniczy prominentnie w syntezie białek... ale
@@ -252,13 +261,12 @@ za to zdolna do syntezy swojego "przodka"
 # Problemy ze światem RNA
 
 :::{.incremental}
- * RNA jest bardzo niestabilne
- * RNA jest bardzo mało odporna na mutacje
- * RNA jest bardzo mało odporna na degradację
+ * RNA jest niestabilne
+ * polimerazy RNA zbudowane z RNA robią dużo błędów
  * RNA nie może tworzyć dużych struktur z hydrofobowym jądrem, bo jest polarne (wiązanie
    fosforowe)
- * Skąd wzięły się nukleotydy?
- * Jaka jest szansa na losowe powstanie samoreplikującej się molekuły RNA?
+ * Skąd wzięły się nukleotydy? (są dwie grupy naukowców...)
+ * Jaka jest szansa na spontaniczne powstanie samoreplikującej się molekuły RNA?
 :::
 
 ## Jak przejść z RNA na DNA?
@@ -338,6 +346,18 @@ Zainteresowanie komercyjne!
 :::
 ::::
 
+## A może coś zupełnie innego?
+
+![Źródło: Francis 2011](images/coupled_synthesis.png){width="80%"}
+
+::: {.notes}
+Francis 2011 - świat hybrydowy, synteza jednoczesna
+
+Albo inne pomysły - np. synteza z udziałem minerału, montmorillonitu np.
+problemy: (i) nie ma żadnych dowodów eksperymentalnych (ii) dlaczego taki
+świat miałby zostać porzucony na rzecz tego, co mamy?
+:::
+
 ## Jeśli istniał świat RNA, to dlaczego już go nie ma?
 
 ::: {.fragment}
@@ -354,10 +374,6 @@ NAD, FAD, CoA, ATP świadczą o elastyczności świata RNA.
 
 ::::: {.columns}
 :::: {.column width="50%"}
-![](images/outlook.png){width="80%"}
-::::
-:::: {.column width="50%"}
-
 ::: {.fragment}
 Czego jesteśmy (prawie) pewni:
  
@@ -377,52 +393,10 @@ Czego nie wiemy:
 Czego nigdy się nie dowiemy: JAK POWSTAŁO ŻYCIE
 :::
 ::::
+:::: {.column width="50%"}
+![](images/outlook.png){width="80%"}
+::::
 :::::
 
 # Dziękuję za uwagę!
-
-## Incremental list
-
-::: {.incremental}
- - Item 1
- - Item 2
- - Item 3
-:::
-
-
-## Incremental contents
-
-First part
-
-. . .
-
-Second part
-
-
----
-
-This is a slide without a title (use the dashes to separate)
-
-## Transitions {transition="zoom"}
-
-Define them in the YAML header or like here, in the slide title.
-
-Types: none, fade, slide, convex, concave, zoom
-
-
-## Code 
-
-
-```{r}
-#| echo: true
-#| output-location: column-fragment
-#| label: fig-sample
-#| fig-cap: A dumb plot
-plot(1:10)
-```
-
-::: {.callout-tip}
-Ctrl-click on the image to zoom. And here is a `r pi` for you.
-:::
-
 
