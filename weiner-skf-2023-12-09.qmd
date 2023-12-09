@@ -129,14 +129,6 @@ wiemy jedno: na początku musiał być REPLIKATOR
 :::
 
 
-# Świat RNA 
-
-::: {.notes}
-Na ten pomysł pierwszy wpadł w 1962 Alexander Rich!
-
-określenie "świat RNA" wprowadził w 1986 Walter Gilbert
-:::
-
 ##
 
 > One can contemplate an
@@ -147,6 +139,14 @@ określenie "świat RNA" wprowadził w 1986 Walter Gilbert
 > służą do katalizowania syntezy samych siebie...
 
 Walter Gilbert, 1986
+
+
+::: {.notes}
+Na ten pomysł pierwszy wpadł w 1962 Alexander Rich!
+
+określenie "świat RNA" wprowadził w 1986 Walter Gilbert
+:::
+
 
 ##
 
@@ -251,12 +251,14 @@ za to zdolna do syntezy swojego "przodka"
 
 # Problemy ze światem RNA
 
-:::{.notes}
+:::{.incremental}
  * RNA jest bardzo niestabilne
  * RNA jest bardzo mało odporna na mutacje
  * RNA jest bardzo mało odporna na degradację
- * RNA nie może mieć dużych hydrofobowych jąder, bo jest polarne (wiązanie
+ * RNA nie może tworzyć dużych struktur z hydrofobowym jądrem, bo jest polarne (wiązanie
    fosforowe)
+ * Skąd wzięły się nukleotydy?
+ * Jaka jest szansa na losowe powstanie samoreplikującej się molekuły RNA?
 :::
 
 ## Jak przejść z RNA na DNA?
@@ -278,6 +280,7 @@ $\rightarrow$ Im więcej informacji, tym mniejsza musi być częstość mutacji
 :::
 ::::
 
+
 ## COSMIC-LOPER
 
 **C**apable **o**f **S**urviving **M**odifications **i**n **C**onstitution 
@@ -289,13 +292,20 @@ Nośnik, który:
  * poddaje się replikacji
  * jest odporny na mutacje
 
-
 ## Jakie alternatywy?
 
 ::: {.notes}
  * DNA - DNAzymy
  * inne polimery - PNA, TNA, GNA
  * świat hybrydowy
+:::
+
+::: {.notes}
+Niektóre z tych tworów są bardzo stabilne.
+
+Tworzą hybrydy z RNA / DNA a więc tranzycje z / do wydają się możliwe.
+
+Ale dlaczego RNA miałoby zastąpić taki system?
 :::
 
 ## DNAzymy
@@ -342,11 +352,18 @@ NAD, FAD, CoA, ATP świadczą o elastyczności świata RNA.
 
 ## Na koniec...
 
+::::: {.columns}
+:::: {.column width="50%"}
+![](images/outlook.png){width="80%"}
+::::
+:::: {.column width="50%"}
+
 ::: {.fragment}
 Czego jesteśmy (prawie) pewni:
  
  * Przed "naszym" światem był *jakiś* świat RNA - jego pozostałości są obecne w
    każdej komórce
+ * RNA najprawdopodobniej jest w stanie się replikować i syntetyzować białka
 :::
 
 ::: {.fragment}
@@ -356,11 +373,11 @@ Czego nie wiemy:
  * Czy przed światem RNA był jakiś inny?
  * Co oprócz naszego przodka (LUCA) istniało na Ziemi?
 :::
-
 ::: {.fragment}
 Czego nigdy się nie dowiemy: JAK POWSTAŁO ŻYCIE
 :::
-
+::::
+:::::
 
 # Dziękuję za uwagę!
 
