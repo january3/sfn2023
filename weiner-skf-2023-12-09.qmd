@@ -157,11 +157,59 @@ Z artykułu Cecha, "ribosome is a ribozyme"
 
 :::
 
-## 
+## Goromaru
 
-## Życie z probówki?
+
+::: {.r-stack}
+![](images/goromaru.jpg){.fragment width="80%"}
+
+![](images/goromaru_ayumu.png){.fragment width="80%"}
+:::
+
+## Aminokwasy łączone bez użycia białek
+
+![Źródło: Kawabata et al. 2022](images/life-12-00573-g002.webp){width="80%"}
+
+## Powstanie RNA w warunkach prebiotycznych
+
+![Źródło: Benner et al. 2019](images/rna_prebiotic.png){width="50%"}
+
+## Podsumujmy:
+
+ * RNA mogło powstać spontanicznie w warunkach prebiotycznych
+ * RNA potrafi tworzyć złożone struktury
+ * RNA potrafi katalizować przeróżne reakcje
+ * RNA jest nośnikiem informacji genetycznej
+ * RNA bierze udział w fundamentalnych procesach życiowych we wszystkich
+   żywych organizmach
+
+::: {.notes}
+Rzecz ciekawa: RNA uczestniczy prominentnie w syntezie białek... ale
+synteza DNA sprawia wrażenie mniej zakonserwowanej - może nowszej?
+:::
+
+## ...ale czy potrafi się replikować?
+
+::: {.r-stack}
+![Źródło: Bartel & Szostak 1993](images/szostak_1.png){.fragment width="80%"}
+
+![Źródło: Bartel & Szostak 1993](images/szostak_2.png){.fragment width="80%"}
+:::
+
+:::{.notes}
+David P. Bartel, Jack W. Szostak
+
+Szostak dostał Nobla za odkrycie telomerazy
+:::
+
 
 # Problemy ze światem RNA
+
+:::{.notes}
+ * RNA jest bardzo niestabilne
+ * RNA jest bardzo mało odporna na mutacje
+ * RNA jest bardzo mało odporna na degradację
+:::
 
 ## Paradoks Eigena {.nostretch}
 
@@ -203,7 +251,22 @@ Nośnik, który:
 
 ::: {.notes}
  * DNA - DNAzymy
- *
+ * inne polimery - PNA, TNA, GNA
+:::
+
+## DNAzymy
+
+::: {.fragment}
+![Źródło: Gysbers et al. 2015](images/srep11405-f1.jpg){width="50%"}
+:::
+
+::: {.notes}
+DNAzymy to głównie rybonukleazy, ale też ligazy.
+
+Natomiast są blokowane przez swój produkt - "single turnover",
+jednorazowego użytku.
+
+Zainteresowanie komercyjne!
 :::
 
 ## Slide 1 
@@ -233,26 +296,6 @@ Left column...
 Right column (60%)...
 
 (adding `.fragment` causes the contents to be displayed in steps)
-:::
-
-::::
-
-
-
-# Part II separator slide {.inverse background-color="#70ADC1"}
-
-## Simple numbered and unnumbered lists
-
-:::: {.columns}
-
-::: {.column width="50%"}
- * One
- * Two
-:::
-
-::: {.column width="50%"}
- 1. One
- 2. Two
 :::
 
 ::::
