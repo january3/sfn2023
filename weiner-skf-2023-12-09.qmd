@@ -111,7 +111,13 @@ komórkową, czyli tym, co może tę informację replikować.
 :::
 ::: {.column width="40%" .fragment}
 
+Replikator:
 
+ * musi być w stanie się replikować
+ * musi być w stanie się mutować
+ * tempo replikacji zależy od przenoszonej informacji
+
+$\rightarrow$ selekcja naturalna
 
 :::
 ::::
@@ -130,6 +136,17 @@ Na ten pomysł pierwszy wpadł w 1962 Alexander Rich!
 
 określenie "świat RNA" wprowadził w 1986 Walter Gilbert
 :::
+
+##
+
+> One can contemplate an
+> RNA world, containing only RNA molecules that serve to catalyze the
+> synthesis of themselves...
+
+> Można rozważyć świat RNA, zawierający tylko cząsteczki RNA, które
+> służą do katalizowania syntezy samych siebie...
+
+Walter Gilbert, 1986
 
 ##
 
@@ -186,14 +203,30 @@ Z artykułu Cecha, "ribosome is a ribozyme"
 ::: {.notes}
 Rzecz ciekawa: RNA uczestniczy prominentnie w syntezie białek... ale
 synteza DNA sprawia wrażenie mniej zakonserwowanej - może nowszej?
+
+Oprócz tego: w żywych komórkach DNA jest syntetyzowane z prekursorów RNA,
+nie odwrotnie!
+
+Plus: ryboza wchodzi w skład wielu koenzymów.
 :::
 
 ## ...ale czy potrafi się replikować?
 
-::: {.r-stack}
-![Źródło: Bartel & Szostak 1993](images/szostak_1.png){.fragment width="80%"}
+:::: {.columns .fragment}
+::: {.column width="50%"}
+![](images/Szostak.jpg){width="80%"}
+:::
+::: {.column width="50%"}
+![](images/Bartel_David.jpg){width="80%"}
+:::
+::::
 
-![Źródło: Bartel & Szostak 1993](images/szostak_2.png){.fragment width="80%"}
+## 
+
+::: {.r-stack}
+![Źródło: Bartel & Szostak 1993](images/szostak_1.png){.fragment width="120%"}
+
+![Źródło: Bartel & Szostak 1993](images/szostak_2.png){.fragment width="100%"}
 :::
 
 :::{.notes}
@@ -202,6 +235,19 @@ David P. Bartel, Jack W. Szostak
 Szostak dostał Nobla za odkrycie telomerazy
 :::
 
+## 
+
+![Źródło: Thjung et al. 2020](images/rna_evolution.png){width="80%"}
+
+::: {.notes}
+sprytny eksperyment: tylko polimerazy, które są zdolne do syntezy
+działającego rybozymu hammerhead są w stane się "uwolnić" i przejść do
+następnej rundy
+
+wysoka wydajność - ale niska wierność! dużo mutacji (17%)
+
+za to zdolna do syntezy swojego "przodka"
+:::
 
 # Problemy ze światem RNA
 
@@ -209,31 +255,28 @@ Szostak dostał Nobla za odkrycie telomerazy
  * RNA jest bardzo niestabilne
  * RNA jest bardzo mało odporna na mutacje
  * RNA jest bardzo mało odporna na degradację
+ * RNA nie może mieć dużych hydrofobowych jąder, bo jest polarne (wiązanie
+   fosforowe)
 :::
+
+## Jak przejść z RNA na DNA?
+
+![Źródło: Dworkin et al. 2003](images/roads_from_rna.gif){width="80%"}
 
 ## Paradoks Eigena {.nostretch}
 
 :::: {.columns}
-
 ::: {.column width="50%"}
-
 ![Manfred Eigen](images/eigen.jpg){width="80%"}
-
 :::
-
 ::: {.column width="40%" .fragment}
-
 Manfred Eigen (1927-2019)
 
 *For optimal selection, the required precision of information transfer has to be adjusted to the amount of information to be transferred.*
 
 $\rightarrow$ Im więcej informacji, tym mniejsza musi być częstość mutacji
-
 :::
-
 ::::
-
-
 
 ## COSMIC-LOPER
 
@@ -252,6 +295,7 @@ Nośnik, który:
 ::: {.notes}
  * DNA - DNAzymy
  * inne polimery - PNA, TNA, GNA
+ * świat hybrydowy
 :::
 
 ## DNAzymy
@@ -269,36 +313,56 @@ jednorazowego użytku.
 Zainteresowanie komercyjne!
 :::
 
-## Slide 1 
-
-To compile, type `quarto render template.qmd`
-
-Make sure you have Quarto 1.2 installed from
-[here](https://quarto.org/docs/download/prerelease.html).
-
-::: {.aside}
-This aside note can be used to add citations or notes
-:::
-
-## Multicolumn slide
+## Inne polimery
 
 :::: {.columns}
-
-::: {.column width="40%" .fragment}
-### Left column title
-
-Left column...
+::: {.column width="50%"}
+![Źródło: Pinheiro et al. 2012](images/na_modifications.jpg){width="80%"}
 :::
+::: {.column width="50%"}
 
-::: {.column width="60%" .fragment}
-### Right column title
+ * PNA: peptydowa szkielet zamiast cukrowego
+ * LNA: dodatkowe wiązanie stabilizuje cząstkę cukru
+ * TNA: treoza (czterowęglowy cukier) zamiast rybozy (pięciowęglowy cukier)
 
-Right column (60%)...
-
-(adding `.fragment` causes the contents to be displayed in steps)
 :::
-
 ::::
+
+## Jeśli istniał świat RNA, to dlaczego już go nie ma?
+
+::: {.fragment}
+![Źródło: Forster 2022](images/rna_world_hydrophobicity.png){width="80%"}
+:::
+
+::: {.notes}
+Tradycyjne tłumaczenie - że świat białek jest bardziej różnorodny. No ale
+istnieją liczne modyfikacje RNA; a spokrewnione z RNA kofaktory takie jak
+NAD, FAD, CoA, ATP świadczą o elastyczności świata RNA.
+:::
+
+## Na koniec...
+
+::: {.fragment}
+Czego jesteśmy (prawie) pewni:
+ 
+ * Przed "naszym" światem był *jakiś* świat RNA - jego pozostałości są obecne w
+   każdej komórce
+:::
+
+::: {.fragment}
+Czego nie wiemy:
+
+ * Czy przed światem żywym był świat RNA, RNA + białka, RNA + DNA?
+ * Czy przed światem RNA był jakiś inny?
+ * Co oprócz naszego przodka (LUCA) istniało na Ziemi?
+:::
+
+::: {.fragment}
+Czego nigdy się nie dowiemy: JAK POWSTAŁO ŻYCIE
+:::
+
+
+# Dziękuję za uwagę!
 
 ## Incremental list
 
